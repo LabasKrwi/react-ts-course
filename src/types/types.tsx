@@ -11,3 +11,9 @@ export interface IUser {
     id:number;
     address: IAdress;
 }
+
+export interface ITodo {
+    id: number;
+    title: string;
+    complete: boolean
+}
